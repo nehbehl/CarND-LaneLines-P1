@@ -14,7 +14,7 @@ The goals / steps of this project are the following:
 
 [//]: # (Image References)
 
-[image1]: ./examples/grayscale.jpg "Grayscale"
+[image1]: ./test_images_output/solidYellowLeft.jpg
 
 ---
 
@@ -25,7 +25,7 @@ My pipeline consisted of 6 stages. First, I converted the images to grayscale, t
 In order to draw a single line on the left and right lanes, I modified the draw_lines() function by adding a logic to fetch x1, y1, x2 and y2 new values using the slope and intercept mathematical formulas.
 
 
-![alt text][./test_images_output/*.jpg]
+![alt text][image1]
 
 
 ### 2. Potential shortcomings in current project
